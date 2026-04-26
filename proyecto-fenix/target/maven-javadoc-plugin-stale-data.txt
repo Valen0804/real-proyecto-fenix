@@ -1,8 +1,5 @@
--J-Duser.language=
--J-Duser.country=
 @options
 @packages
---no-fonts
 -encoding
 'UTF-8'
 -protected
@@ -16,7 +13,7 @@
 -charset
 'UTF-8'
 -d
-'C:/Users/alumno/Documents/Real_Proyecto_Fenix/proyecto-fenix/target/reports/apidocs'
+'C:/Users/alumno/Documents/Real_Proyecto_Fenix/proyecto-fenix/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
@@ -29,16 +26,16 @@
 'proyecto-fenix 1.0-SNAPSHOT API'
 com.fenix
 C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\src\main\java = 1777222542644
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\allclasses-index.html = 1777227430603
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\allpackages-index.html = 1777227430607
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\element-list = 1777227430549
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\help-doc.html = 1777227430656
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\index-all.html = 1777227430637
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\index.html = 1777227430644
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\member-search-index.js = 1777227430622
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\module-search-index.js = 1777227430610
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\overview-tree.html = 1777227430586
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\package-search-index.js = 1777227430613
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\search.html = 1777227430641
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\tag-search-index.js = 1777227430624
-C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\type-search-index.js = 1777227430619
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\allclasses-index.html = 1777228055744
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\allpackages-index.html = 1777228055749
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\element-list = 1777228055698
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\help-doc.html = 1777228055785
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\index-all.html = 1777228055769
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\index.html = 1777228055775
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\member-search-index.js = 1777228055758
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\module-search-index.js = 1777228055752
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\overview-tree.html = 1777228055729
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\package-search-index.js = 1777228055754
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\search.html = 1777228055771
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\tag-search-index.js = 1777228055761
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\site\apidocs\type-search-index.js = 1777228055756

@@ -50,3 +50,6 @@ public class ProcesadorUsuarios {
         lista.append(nombre);
     }
 }
+
+
+//Autor: Valentin Fuentes
