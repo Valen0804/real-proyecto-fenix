@@ -3,31 +3,50 @@ package com.fenix;
 import java.util.List;
 
 /**
- * Esta clase procesa listas de usuarios. Contiene 'code smells' intencionados.
+ * Procesa listas de usuarios en formato "nombre:rol"
+ * y los separa en administradores e invitados.
  */
 public class ProcesadorUsuarios {
 
-    // Método con 'code smells': largo, números mágicos, malos nombres.
-    public String procesarLista(List<String> dataList) {
-        String admins = "";
-        String invitados = "";
+    private static final int ROL_ADMIN = 1;
+    private static final int ROL_INVITADO = 2;
 
-        for (String u : dataList) {
-            String[] parts = u.split(":"); // Formato "nombre:rol"
-            if (parts.length == 2) {
-                String n = parts[0];
-                int r = Integer.parseInt(parts[1]);
+    /**
+     * Procesa una lista de usuarios y los clasifica por rol.
+     *
+     * @param listaUsuarios lista en formato "nombre:rol"
+     * @return resultado formateado
+     */
+    public String procesarLista(List<String> listaUsuarios) {
+        StringBuilder admins = new StringBuilder();
+        StringBuilder invitados = new StringBuilder();
 
-                // Número Mágico: 1 es Admin
-                if (r == 1) {
-                    admins += n + ",";
-                }
-                // Número Mágico: 2 es Invitado
-                else if (r == 2) {
-                    invitados += n + ",";
-                }
-            }
+        for (String usuario : listaUsuarios) {
+            procesarUsuario(usuario, admins, invitados);
         }
+
         return "Admins: " + admins + " | Invitados: " + invitados;
+    }
+
+    private void procesarUsuario(String usuario, StringBuilder admins, StringBuilder invitados) {
+        String[] partes = usuario.split(":");
+
+        if (partes.length != 2) return;
+
+        String nombre = partes[0];
+        int rol = Integer.parseInt(partes[1]);
+
+        if (rol == ROL_ADMIN) {
+            agregarNombre(admins, nombre);
+        } else if (rol == ROL_INVITADO) {
+            agregarNombre(invitados, nombre);
+        }
+    }
+
+    private void agregarNombre(StringBuilder lista, String nombre) {
+        if (lista.length() > 0) {
+            lista.append(",");
+        }
+        lista.append(nombre);
     }
 }
