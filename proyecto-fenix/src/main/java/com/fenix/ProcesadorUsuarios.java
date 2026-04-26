@@ -3,8 +3,8 @@ package com.fenix;
 import java.util.List;
 
 /**
- * Procesa listas de usuarios en formato "nombre:rol"
- * y los separa en administradores e invitados.
+ * Clase encargada de procesar listas de usuarios
+ * separando administradores e invitados.
  */
 public class ProcesadorUsuarios {
 

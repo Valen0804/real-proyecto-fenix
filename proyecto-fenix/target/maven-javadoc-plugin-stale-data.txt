@@ -1,0 +1,44 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/alumno/Documents/Real_Proyecto_Fenix/proyecto-fenix/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/alumno/Documents/Real_Proyecto_Fenix/proyecto-fenix/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'proyecto-fenix 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/alumno/Documents/Real_Proyecto_Fenix/proyecto-fenix/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'proyecto-fenix 1.0-SNAPSHOT API'
+com.fenix
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\src\main\java = 1777222542644
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\allclasses-index.html = 1777227430603
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\allpackages-index.html = 1777227430607
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\element-list = 1777227430549
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\help-doc.html = 1777227430656
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\index-all.html = 1777227430637
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\index.html = 1777227430644
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\member-search-index.js = 1777227430622
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\module-search-index.js = 1777227430610
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\overview-tree.html = 1777227430586
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\package-search-index.js = 1777227430613
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\search.html = 1777227430641
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\tag-search-index.js = 1777227430624
+C:\Users\alumno\Documents\Real_Proyecto_Fenix\proyecto-fenix\target\reports\apidocs\type-search-index.js = 1777227430619
