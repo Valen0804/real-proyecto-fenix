@@ -17,5 +17,14 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
 
-    - name: Run tests
-      run: mvn test
+    - name: Cache Maven dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.m2
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          ${{ runner.os }}-maven-
+
+    - name: Build and test with Maven
+      working-directory: proyecto-fenix
+      run: mvn clean test
